@@ -1,2 +1,15 @@
 Git 최초 사용시
-터미널 창에  git init을 쳐줌 
+터미널 창에  git init을 쳐줌  # 처음 깃을 설치하고하면 모든 비쥬얼 스튜디오창을 끄고 다시실행
+
+git status : git 상태 확인
+
+git add . : 변경 사항확인
+
+git commit -m "initialization" 을 실행하기 이전에
+Git 사용이 처음이라면 아래의 코드를 실행해줘야됨
+
+git config --global user.email "본인이메일"
+git config --global user.name "Git 닉네임"
+
+입력후 git commit -m "initialization" 를 실행
+
